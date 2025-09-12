@@ -1,0 +1,351 @@
+Group 1:
+================================================================================
+📊 ASSET SELECTION SUMMARY
+================================================================================
+
+🎯 SELECTION CRITERIA:
+   Rolling range metric: rolling_range_pct_6_month
+   Evaluation at: ~365 DTE ((360, 370))
+   Top candidates considered: 10
+
+🏆 TOP 10 CANDIDATES BY ROLLING RANGE:
+    1.   CRWD:  97.92% - ✅ SELECTED
+    2.   PANW:  62.19% - ✅ SELECTED
+    3.   UBER:  58.42% - ✅ SELECTED
+    4.   DELL:  57.97% - ❌ NO OPTIONS DATA
+    5.   INTC:  53.44% - ✅ SELECTED
+    6.   DASH:  51.85% - ❌ NO OPTIONS DATA
+    7.   NVDA:  48.79% - ✅ SELECTED
+    8.   NFLX:  48.08% - ✅ SELECTED
+    9.     BA:  47.07% - ✅ SELECTED
+   10.   AVGO:  46.66% - ✅ SELECTED
+
+📈 FINAL PORTFOLIO ASSETS:
+   CRWD: $410 strike, OPP=5.13%
+   PANW: $500 strike, OPP=8.82%
+   UBER: $95 strike, OPP=4.34%
+   INTC: $65 strike, OPP=4.51%
+   NVDA: $1200 strike, OPP=10.74%
+   NFLX: $745 strike, OPP=5.09%
+   BA: $270 strike, OPP=4.40%
+   AVGO: $1720 strike, OPP=17.44%
+
+💼 PORTFOLIO PERFORMANCE:
+   Initial investment: $80,000
+   Final value: $456,584
+   Total return: 470.7%
+   Best return: 548.8%
+   Worst return: 0.0%
+   Number of data points: 252
+   Common expiry: 20250117
+
+
+
+
+Group 2:
+================================================================================
+📊 ASSET SELECTION SUMMARY
+================================================================================
+
+🎯 SELECTION CRITERIA:
+   Rolling range metric: rolling_range_pct_6_month
+   Evaluation at: ~365 DTE ((360, 370))
+   Top candidates considered: 10
+
+🏆 TOP 11 CANDIDATES BY ROLLING RANGE:
+    1.   AVGO:  46.66% - ✅ SELECTED
+    2.     BX:  46.10% - ✅ SELECTED
+    3.   PLTR:  45.01% - ❌ NO OPTIONS DATA
+    4.   ISRG:  44.73% - ✅ SELECTED
+    5.   QCOM:  43.17% - ✅ SELECTED
+    6.    LLY:  43.03% - ✅ SELECTED
+    7.    CRM:  42.89% - ✅ SELECTED
+    8.      C:  42.08% - ✅ SELECTED
+    9.   SCHW:  41.62% - ✅ SELECTED
+   10.    NEE:  40.61% - ✅ SELECTED
+   11.    NOW:  40.22% - ✅ SELECTED
+
+📈 FINAL PORTFOLIO ASSETS:
+   AVGO: $1720 strike, OPP=17.44%
+   BX: $145 strike, OPP=5.22%
+   ISRG: $470 strike, OPP=5.16%
+   QCOM: $180 strike, OPP=4.79%
+   LLY: $780 strike, OPP=4.94%
+   CRM: $340 strike, OPP=5.34%
+   C: $60 strike, OPP=4.46%
+   SCHW: $75 strike, OPP=5.86%
+   NEE: $70 strike, OPP=4.14%
+   NOW: $960 strike, OPP=5.22%
+
+💼 PORTFOLIO PERFORMANCE:
+   Initial investment: $100,000
+   Final value: $336,693
+   Total return: 236.7%
+   Best return: 299.6%
+   Worst return: 0.0%
+   Number of data points: 252
+   Common expiry: 20250117
+
+
+
+
+Group 3:
+================================================================================
+📊 ASSET SELECTION SUMMARY
+================================================================================
+
+🎯 SELECTION CRITERIA:
+   Rolling range metric: rolling_range_pct_6_month
+   Evaluation at: ~365 DTE ((360, 370))
+   Top candidates considered: 10
+
+🏆 TOP 11 CANDIDATES BY ROLLING RANGE:
+    1.    NOW:  40.22% - ✅ SELECTED
+    2.    PGR:  38.78% - ❌ NO OPTIONS DATA
+    3.   TSLA:  38.78% - ✅ SELECTED
+    4.     MU:  38.04% - ✅ SELECTED
+    5.   META:  37.26% - ✅ SELECTED
+    6.    BLK:  36.94% - ❌ NO OPTIONS DATA
+    7.    BAC:  36.79% - ✅ SELECTED
+    8.    UPS:  36.26% - ✅ SELECTED
+    9.    AXP:  36.08% - ✅ SELECTED
+   10.    NKE:  33.79% - ✅ SELECTED
+   11.     GS:  33.30% - ✅ SELECTED
+
+📈 FINAL PORTFOLIO ASSETS:
+   NOW: $960 strike, OPP=5.22%
+   TSLA: $350 strike, OPP=4.84%
+   MU: $115 strike, OPP=4.92%
+   META: $505 strike, OPP=5.05%
+   BAC: $35 strike, OPP=6.57%
+   UPS: $175 strike, OPP=5.02%
+   AXP: $210 strike, OPP=5.14%
+   NKE: $120 strike, OPP=5.10%
+   GS: $430 strike, OPP=5.17%
+
+💼 PORTFOLIO PERFORMANCE:
+   Initial investment: $90,000
+   Final value: $423,488
+   Total return: 370.5%
+   Best return: 437.2%
+   Worst return: 0.0%
+   Number of data points: 252
+   Common expiry: 20250117
+
+
+Group 4:
+================================================================================
+📊 ASSET SELECTION SUMMARY
+================================================================================
+
+🎯 SELECTION CRITERIA:
+   Rolling range metric: rolling_range_pct_6_month
+   Evaluation at: ~365 DTE ((360, 370))
+   Top candidates considered: 10
+
+🏆 TOP 11 CANDIDATES BY ROLLING RANGE:
+    1.     GS:  33.30% - ✅ SELECTED
+    2.     VZ:  33.24% - ✅ SELECTED
+    3.     MS:  32.46% - ✅ SELECTED
+    4.   INTU:  31.75% - ✅ SELECTED
+    5.   BKNG:  31.69% - ✅ SELECTED
+    6.     HD:  31.09% - ✅ SELECTED
+    7.    IBM:  30.83% - ✅ SELECTED
+    8.   SNPS:  30.57% - ❌ NO OPTIONS DATA
+    9.   COST:  30.14% - ✅ SELECTED
+   10.    WFC:  29.80% - ✅ SELECTED
+   11.   SPGI:  29.72% - ❌ NO OPTIONS DATA
+
+📈 FINAL PORTFOLIO ASSETS:
+   GS: $430 strike, OPP=5.17%
+   VZ: $40 strike, OPP=6.60%
+   MS: $95 strike, OPP=5.21%
+   INTU: $760 strike, OPP=6.03%
+   BKNG: $4300 strike, OPP=5.21%
+   HD: $400 strike, OPP=4.64%
+   IBM: $180 strike, OPP=4.67%
+   COST: $790 strike, OPP=4.92%
+   WFC: $55 strike, OPP=4.19%
+
+💼 PORTFOLIO PERFORMANCE:
+   Initial investment: $90,000
+   Final value: $425,722
+   Total return: 373.0%
+   Best return: 395.4%
+   Worst return: 0.0%
+   Number of data points: 252
+   Common expiry: 20250117
+
+
+
+Group 5:
+================================================================================
+📊 ASSET SELECTION SUMMARY
+================================================================================
+
+🎯 SELECTION CRITERIA:
+   Rolling range metric: rolling_range_pct_6_month
+   Evaluation at: ~365 DTE ((360, 370))
+   Top candidates considered: 10
+
+🏆 TOP 11 CANDIDATES BY ROLLING RANGE:
+    1.   SPGI:  29.72% - ❌ NO OPTIONS DATA
+    2.    MCO:  29.34% - ❌ NO OPTIONS DATA
+    3.    TMO:  29.16% - ❌ NO OPTIONS DATA
+    4.   AMGN:  28.80% - ✅ SELECTED
+    5.   AMAT:  27.91% - ✅ SELECTED
+    6.   MSFT:  27.09% - ✅ SELECTED
+    7.    JPM:  26.96% - ✅ SELECTED
+    8.    ACN:  26.70% - ✅ SELECTED
+    9.    LOW:  26.63% - ✅ SELECTED
+   10.    MMM:  26.31% - ✅ SELECTED
+   11.    RTX:  26.09% - ✅ SELECTED
+
+📈 FINAL PORTFOLIO ASSETS:
+   AMGN: $350 strike, OPP=4.70%
+   AMAT: $210 strike, OPP=5.39%
+   MSFT: $460 strike, OPP=4.98%
+   JPM: $185 strike, OPP=4.79%
+   ACN: $400 strike, OPP=5.23%
+   LOW: $250 strike, OPP=4.99%
+   MMM: $125 strike, OPP=4.64%
+   RTX: $95 strike, OPP=5.09%
+
+💼 PORTFOLIO PERFORMANCE:
+   Initial investment: $80,000
+   Final value: $191,242
+   Total return: 139.1%
+   Best return: 173.2%
+   Worst return: 0.0%
+   Number of data points: 252
+   Common expiry: 20250117
+
+
+Group 6:
+================================================================================
+📊 ASSET SELECTION SUMMARY
+================================================================================
+
+🎯 SELECTION CRITERIA:
+   Rolling range metric: rolling_range_pct_6_month
+   Evaluation at: ~365 DTE ((360, 370))
+   Top candidates considered: 10
+
+🏆 TOP 11 CANDIDATES BY ROLLING RANGE:
+    1.    RTX:  26.09% - ✅ SELECTED
+    2.   AMZN:  25.61% - ✅ SELECTED
+    3.    DHR:  25.30% - ✅ SELECTED
+    4.   ORCL:  25.08% - ✅ SELECTED
+    5.      T:  24.79% - ✅ SELECTED
+    6.    CAT:  23.94% - ✅ SELECTED
+    7.   TMUS:  23.85% - ✅ SELECTED
+    8.    BSX:  23.25% - ✅ SELECTED
+    9.     GE:  23.02% - ✅ SELECTED
+   10.  GOOGL:  22.19% - ✅ SELECTED
+   11.    SYK:  22.17% - ❌ NO OPTIONS DATA
+
+📈 FINAL PORTFOLIO ASSETS:
+   RTX: $95 strike, OPP=5.09%
+   AMZN: $195 strike, OPP=4.72%
+   DHR: $270 strike, OPP=4.55%
+   ORCL: $130 strike, OPP=4.83%
+   T: $20 strike, OPP=2.16%
+   CAT: $330 strike, OPP=5.32%
+   TMUS: $185 strike, OPP=4.93%
+   BSX: $70 strike, OPP=4.63%
+   GE: $160 strike, OPP=4.68%
+   GOOGL: $175 strike, OPP=4.93%
+
+💼 PORTFOLIO PERFORMANCE:
+   Initial investment: $100,000
+   Final value: $468,005
+   Total return: 368.0%
+   Best return: 461.6%
+   Worst return: 0.0%
+   Number of data points: 252
+   Common expiry: 20250117
+
+
+Group 7:
+================================================================================
+📊 ASSET SELECTION SUMMARY
+================================================================================
+
+🎯 SELECTION CRITERIA:
+   Rolling range metric: rolling_range_pct_6_month
+   Evaluation at: ~365 DTE ((360, 370))
+   Top candidates considered: 10
+
+🏆 TOP 11 CANDIDATES BY ROLLING RANGE:
+    1.    SYK:  22.17% - ❌ NO OPTIONS DATA
+    2.   ADBE:  21.91% - ✅ SELECTED
+    3.    UNP:  21.76% - ✅ SELECTED
+    4.     WM:  21.44% - ❌ NO OPTIONS DATA
+    5.    TXN:  21.33% - ❌ NO OPTIONS DATA
+    6.    XOM:  21.28% - ✅ SELECTED
+    7.   CSCO:  21.12% - ✅ SELECTED
+    8.    DIS:  21.09% - ✅ SELECTED
+    9.    MCD:  21.07% - ✅ SELECTED
+   10.     MA:  20.21% - ✅ SELECTED
+   11.    MSI:  19.85% - ❌ NO OPTIONS DATA
+
+📈 FINAL PORTFOLIO ASSETS:
+   ADBE: $780 strike, OPP=5.04%
+   UNP: $270 strike, OPP=4.56%
+   XOM: $110 strike, OPP=4.95%
+   CSCO: $55 strike, OPP=5.67%
+   DIS: $110 strike, OPP=5.31%
+   MCD: $310 strike, OPP=5.18%
+   MA: $480 strike, OPP=5.10%
+
+💼 PORTFOLIO PERFORMANCE:
+   Initial investment: $70,000
+   Final value: $45,058
+   Total return: -35.6%
+   Best return: 66.2%
+   Worst return: -60.7%
+   Number of data points: 252
+   Common expiry: 20250117
+
+Group 8:
+================================================================================
+📊 ASSET SELECTION SUMMARY
+================================================================================
+
+🎯 SELECTION CRITERIA:
+   Rolling range metric: rolling_range_pct_6_month
+   Evaluation at: ~365 DTE ((360, 370))
+   Top candidates considered: 10
+
+🏆 TOP 11 CANDIDATES BY ROLLING RANGE:
+    1.    MSI:  19.85% - ❌ NO OPTIONS DATA
+    2.    JNJ:  19.40% - ✅ SELECTED
+    3.   ABBV:  19.14% - ✅ SELECTED
+    4.    HON:  18.48% - ✅ SELECTED
+    5.    MRK:  18.21% - ✅ SELECTED
+    6.      V:  18.16% - ✅ SELECTED
+    7.    MCK:  17.70% - ❌ NO OPTIONS DATA
+    8.   AAPL:  17.45% - ✅ SELECTED
+    9.    PEP:  17.08% - ✅ SELECTED
+   10.     KO:  16.12% - ✅ SELECTED
+   11.  CMCSA:  16.12% - ✅ SELECTED
+
+📈 FINAL PORTFOLIO ASSETS:
+   JNJ: $170 strike, OPP=4.93%
+   ABBV: $175 strike, OPP=5.40%
+   HON: $220 strike, OPP=4.61%
+   MRK: $130 strike, OPP=4.45%
+   V: $300 strike, OPP=4.79%
+   AAPL: $215 strike, OPP=4.74%
+   PEP: $175 strike, OPP=5.44%
+   KO: $65 strike, OPP=3.52%
+   CMCSA: $50 strike, OPP=4.02%
+
+💼 PORTFOLIO PERFORMANCE:
+   Initial investment: $90,000
+   Final value: $34,471
+   Total return: -61.7%
+   Best return: 38.5%
+   Worst return: -67.6%
+   Number of data points: 252
+   Common expiry: 20250117
