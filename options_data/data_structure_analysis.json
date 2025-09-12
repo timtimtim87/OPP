@@ -1,0 +1,1298 @@
+{
+  "directory_structure": {
+    ".": {
+      "file_count_by_type": {
+        "": 1
+      },
+      "total_files": 1,
+      "total_size_mb": 0.0
+    },
+    "processed": {
+      "file_count_by_type": {
+        ".csv": 501
+      },
+      "total_files": 501,
+      "total_size_mb": 7356.5
+    },
+    "raw": {
+      "file_count_by_type": {
+        ".gz": 501
+      },
+      "total_files": 501,
+      "total_size_mb": 1288.4
+    }
+  },
+  "file_analysis": [
+    {
+      "filename": "2025-07-11.csv",
+      "file_size_mb": 16.6,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A250718C00110000",
+          "volume": 3,
+          "open": 13.0,
+          "close": 13.3,
+          "high": 13.3,
+          "low": 13.0,
+          "window_start": 1752206400000000000,
+          "transactions": 3
+        },
+        {
+          "ticker": "O:A250718C00120000",
+          "volume": 12,
+          "open": 3.75,
+          "close": 3.96,
+          "high": 4.28,
+          "low": 3.75,
+          "window_start": 1752206400000000000,
+          "transactions": 9
+        },
+        {
+          "ticker": "O:A250718C00125000",
+          "volume": 5,
+          "open": 2.1,
+          "close": 1.24,
+          "high": 2.1,
+          "low": 0.9,
+          "window_start": 1752206400000000000,
+          "transactions": 3
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2045-07-11",
+          "2045-07-18",
+          "2045-08-15",
+          "2045-09-19",
+          "2045-10-17",
+          "2045-11-21",
+          "2046-01-16",
+          "2046-06-18",
+          "2047-01-15"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2045-07-18",
+            "option_type": "C",
+            "strike": 110.0,
+            "expiry_yyyymmdd": "20450718"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-07-18",
+            "option_type": "C",
+            "strike": 120.0,
+            "expiry_yyyymmdd": "20450718"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-07-18",
+            "option_type": "C",
+            "strike": 125.0,
+            "expiry_yyyymmdd": "20450718"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-07-18",
+            "option_type": "C",
+            "strike": 130.0,
+            "expiry_yyyymmdd": "20450718"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-07-18",
+            "option_type": "P",
+            "strike": 100.0,
+            "expiry_yyyymmdd": "20450718"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2024-06-26.csv",
+      "file_size_mb": 12.0,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A240719C00130000",
+          "volume": 13,
+          "open": 4.9,
+          "close": 4.9,
+          "high": 4.9,
+          "low": 4.9,
+          "window_start": 1719374400000000000,
+          "transactions": 3
+        },
+        {
+          "ticker": "O:A240719C00135000",
+          "volume": 106,
+          "open": 2.2,
+          "close": 2.16,
+          "high": 2.8,
+          "low": 2.05,
+          "window_start": 1719374400000000000,
+          "transactions": 30
+        },
+        {
+          "ticker": "O:A240719C00140000",
+          "volume": 14,
+          "open": 1.15,
+          "close": 0.75,
+          "high": 1.15,
+          "low": 0.75,
+          "window_start": 1719374400000000000,
+          "transactions": 8
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2044-06-28",
+          "2044-07-05",
+          "2044-07-19",
+          "2044-08-16",
+          "2044-11-15",
+          "2045-01-17",
+          "2045-02-21",
+          "2046-01-16"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2044-07-19",
+            "option_type": "C",
+            "strike": 130.0,
+            "expiry_yyyymmdd": "20440719"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2044-07-19",
+            "option_type": "C",
+            "strike": 135.0,
+            "expiry_yyyymmdd": "20440719"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2044-07-19",
+            "option_type": "C",
+            "strike": 140.0,
+            "expiry_yyyymmdd": "20440719"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2044-07-19",
+            "option_type": "C",
+            "strike": 145.0,
+            "expiry_yyyymmdd": "20440719"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2044-07-19",
+            "option_type": "C",
+            "strike": 150.0,
+            "expiry_yyyymmdd": "20440719"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2024-08-23.csv",
+      "file_size_mb": 14.2,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A240920C00130000",
+          "volume": 1,
+          "open": 13.0,
+          "close": 13.0,
+          "high": 13.0,
+          "low": 13.0,
+          "window_start": 1724385600000000000,
+          "transactions": 1
+        },
+        {
+          "ticker": "O:A240920C00135000",
+          "volume": 200,
+          "open": 8.0,
+          "close": 8.0,
+          "high": 8.3,
+          "low": 8.0,
+          "window_start": 1724385600000000000,
+          "transactions": 32
+        },
+        {
+          "ticker": "O:A240920C00140000",
+          "volume": 68,
+          "open": 3.9,
+          "close": 4.07,
+          "high": 4.9,
+          "low": 3.8,
+          "window_start": 1724385600000000000,
+          "transactions": 29
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2044-08-23",
+          "2044-08-30",
+          "2044-09-20",
+          "2044-10-18",
+          "2044-11-15",
+          "2045-01-17",
+          "2045-02-21",
+          "2046-01-16"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2044-09-20",
+            "option_type": "C",
+            "strike": 130.0,
+            "expiry_yyyymmdd": "20440920"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2044-09-20",
+            "option_type": "C",
+            "strike": 135.0,
+            "expiry_yyyymmdd": "20440920"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2044-09-20",
+            "option_type": "C",
+            "strike": 140.0,
+            "expiry_yyyymmdd": "20440920"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2044-09-20",
+            "option_type": "C",
+            "strike": 145.0,
+            "expiry_yyyymmdd": "20440920"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2044-09-20",
+            "option_type": "C",
+            "strike": 150.0,
+            "expiry_yyyymmdd": "20440920"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2025-05-14.csv",
+      "file_size_mb": 16.9,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A250516C00100000",
+          "volume": 360,
+          "open": 12.44,
+          "close": 12.52,
+          "high": 12.68,
+          "low": 12.39,
+          "window_start": 1747195200000000000,
+          "transactions": 7
+        },
+        {
+          "ticker": "O:A250516C00105000",
+          "volume": 1,
+          "open": 9.28,
+          "close": 9.28,
+          "high": 9.28,
+          "low": 9.28,
+          "window_start": 1747195200000000000,
+          "transactions": 1
+        },
+        {
+          "ticker": "O:A250516C00115000",
+          "volume": 10,
+          "open": 1.7,
+          "close": 0.5,
+          "high": 1.7,
+          "low": 0.4,
+          "window_start": 1747195200000000000,
+          "transactions": 7
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2045-05-16",
+          "2045-05-23",
+          "2045-06-20",
+          "2045-07-18",
+          "2045-08-15",
+          "2045-09-19",
+          "2045-11-21",
+          "2046-01-16",
+          "2046-03-20"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2045-05-16",
+            "option_type": "C",
+            "strike": 100.0,
+            "expiry_yyyymmdd": "20450516"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-05-16",
+            "option_type": "C",
+            "strike": 105.0,
+            "expiry_yyyymmdd": "20450516"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-05-16",
+            "option_type": "C",
+            "strike": 115.0,
+            "expiry_yyyymmdd": "20450516"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-05-16",
+            "option_type": "C",
+            "strike": 120.0,
+            "expiry_yyyymmdd": "20450516"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-05-16",
+            "option_type": "C",
+            "strike": 125.0,
+            "expiry_yyyymmdd": "20450516"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2024-04-23.csv",
+      "file_size_mb": 13.5,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:K1250117C00050000",
+          "volume": 1,
+          "open": 15.0,
+          "close": 15.0,
+          "high": 15.0,
+          "low": 15.0,
+          "window_start": 1713844800000000000,
+          "transactions": 1
+        },
+        {
+          "ticker": "O:K1250117C00055000",
+          "volume": 1,
+          "open": 10.5,
+          "close": 10.5,
+          "high": 10.5,
+          "low": 10.5,
+          "window_start": 1713844800000000000,
+          "transactions": 1
+        },
+        {
+          "ticker": "O:K1250117C00060000",
+          "volume": 6,
+          "open": 6.5,
+          "close": 6.5,
+          "high": 6.5,
+          "low": 6.5,
+          "window_start": 1713844800000000000,
+          "transactions": 1
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "K",
+          "KALU",
+          "KALV",
+          "KAR",
+          "KB",
+          "KBA",
+          "KBE",
+          "KBH"
+        ],
+        "sample_expiry_dates": [
+          "2044-05-17",
+          "2044-06-21",
+          "2044-07-19",
+          "2044-09-20",
+          "2044-11-15",
+          "2044-12-20",
+          "2045-01-17",
+          "2046-01-16"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "K",
+            "expiry_date": "2044-05-17",
+            "option_type": "C",
+            "strike": 57.5,
+            "expiry_yyyymmdd": "20440517"
+          },
+          {
+            "underlying": "K",
+            "expiry_date": "2044-05-17",
+            "option_type": "C",
+            "strike": 60.0,
+            "expiry_yyyymmdd": "20440517"
+          },
+          {
+            "underlying": "K",
+            "expiry_date": "2044-05-17",
+            "option_type": "C",
+            "strike": 62.5,
+            "expiry_yyyymmdd": "20440517"
+          },
+          {
+            "underlying": "K",
+            "expiry_date": "2044-05-17",
+            "option_type": "P",
+            "strike": 50.0,
+            "expiry_yyyymmdd": "20440517"
+          },
+          {
+            "underlying": "K",
+            "expiry_date": "2044-05-17",
+            "option_type": "P",
+            "strike": 52.5,
+            "expiry_yyyymmdd": "20440517"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2025-02-21.csv",
+      "file_size_mb": 19.7,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A250221C00125000",
+          "volume": 4,
+          "open": 10.4,
+          "close": 10.89,
+          "high": 10.89,
+          "low": 10.4,
+          "window_start": 1740114000000000000,
+          "transactions": 3
+        },
+        {
+          "ticker": "O:A250221C00135000",
+          "volume": 41,
+          "open": 2.25,
+          "close": 0.83,
+          "high": 2.25,
+          "low": 0.83,
+          "window_start": 1740114000000000000,
+          "transactions": 9
+        },
+        {
+          "ticker": "O:A250221C00140000",
+          "volume": 2,
+          "open": 0.05,
+          "close": 0.05,
+          "high": 0.05,
+          "low": 0.05,
+          "window_start": 1740114000000000000,
+          "transactions": 2
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2045-02-21",
+          "2045-02-28",
+          "2045-03-21",
+          "2045-04-17",
+          "2045-05-16",
+          "2045-08-15",
+          "2045-09-19",
+          "2046-01-16",
+          "2047-01-15"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2045-02-21",
+            "option_type": "C",
+            "strike": 125.0,
+            "expiry_yyyymmdd": "20450221"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-02-21",
+            "option_type": "C",
+            "strike": 135.0,
+            "expiry_yyyymmdd": "20450221"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-02-21",
+            "option_type": "C",
+            "strike": 140.0,
+            "expiry_yyyymmdd": "20450221"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-02-21",
+            "option_type": "C",
+            "strike": 150.0,
+            "expiry_yyyymmdd": "20450221"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-02-21",
+            "option_type": "P",
+            "strike": 125.0,
+            "expiry_yyyymmdd": "20450221"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2025-05-28.csv",
+      "file_size_mb": 14.8,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A250620C00055000",
+          "volume": 1,
+          "open": 56.2,
+          "close": 56.2,
+          "high": 56.2,
+          "low": 56.2,
+          "window_start": 1748404800000000000,
+          "transactions": 1
+        },
+        {
+          "ticker": "O:A250620C00085000",
+          "volume": 1,
+          "open": 26.5,
+          "close": 26.5,
+          "high": 26.5,
+          "low": 26.5,
+          "window_start": 1748404800000000000,
+          "transactions": 1
+        },
+        {
+          "ticker": "O:A250620C00100000",
+          "volume": 21,
+          "open": 11.94,
+          "close": 13.1,
+          "high": 13.1,
+          "low": 11.94,
+          "window_start": 1748404800000000000,
+          "transactions": 5
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2045-05-30",
+          "2045-06-06",
+          "2045-06-20",
+          "2045-07-18",
+          "2045-08-15",
+          "2045-09-19",
+          "2045-11-21",
+          "2046-03-20",
+          "2046-06-18",
+          "2047-01-15"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2045-06-20",
+            "option_type": "C",
+            "strike": 55.0,
+            "expiry_yyyymmdd": "20450620"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-06-20",
+            "option_type": "C",
+            "strike": 85.0,
+            "expiry_yyyymmdd": "20450620"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-06-20",
+            "option_type": "C",
+            "strike": 100.0,
+            "expiry_yyyymmdd": "20450620"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-06-20",
+            "option_type": "C",
+            "strike": 105.0,
+            "expiry_yyyymmdd": "20450620"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2045-06-20",
+            "option_type": "C",
+            "strike": 110.0,
+            "expiry_yyyymmdd": "20450620"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2023-10-26.csv",
+      "file_size_mb": 13.7,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A231117C00100000",
+          "volume": 4,
+          "open": 6.3,
+          "close": 6.3,
+          "high": 6.3,
+          "low": 6.3,
+          "window_start": 1698292800000000000,
+          "transactions": 1
+        },
+        {
+          "ticker": "O:A231117C00105000",
+          "volume": 23,
+          "open": 3.0,
+          "close": 3.1,
+          "high": 3.1,
+          "low": 2.87,
+          "window_start": 1698292800000000000,
+          "transactions": 11
+        },
+        {
+          "ticker": "O:A231117C00110000",
+          "volume": 9,
+          "open": 1.0,
+          "close": 1.1,
+          "high": 1.23,
+          "low": 1.0,
+          "window_start": 1698292800000000000,
+          "transactions": 8
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2043-10-27",
+          "2043-11-03",
+          "2043-11-17",
+          "2043-12-15",
+          "2044-01-19",
+          "2044-02-16",
+          "2044-05-17",
+          "2044-06-21",
+          "2045-01-17"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2043-11-17",
+            "option_type": "C",
+            "strike": 100.0,
+            "expiry_yyyymmdd": "20431117"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-11-17",
+            "option_type": "C",
+            "strike": 105.0,
+            "expiry_yyyymmdd": "20431117"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-11-17",
+            "option_type": "C",
+            "strike": 110.0,
+            "expiry_yyyymmdd": "20431117"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-11-17",
+            "option_type": "C",
+            "strike": 115.0,
+            "expiry_yyyymmdd": "20431117"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-11-17",
+            "option_type": "C",
+            "strike": 120.0,
+            "expiry_yyyymmdd": "20431117"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2023-09-13.csv",
+      "file_size_mb": 12.0,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A230915C00110000",
+          "volume": 21,
+          "open": 0.8,
+          "close": 5.5,
+          "high": 5.5,
+          "low": 0.8,
+          "window_start": 1694577600000000000,
+          "transactions": 12
+        },
+        {
+          "ticker": "O:A230915C00115000",
+          "volume": 509,
+          "open": 0.2,
+          "close": 0.6,
+          "high": 1.4,
+          "low": 0.13,
+          "window_start": 1694577600000000000,
+          "transactions": 123
+        },
+        {
+          "ticker": "O:A230915C00120000",
+          "volume": 18,
+          "open": 0.06,
+          "close": 0.1,
+          "high": 0.1,
+          "low": 0.04,
+          "window_start": 1694577600000000000,
+          "transactions": 7
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2043-09-15",
+          "2043-10-20",
+          "2043-11-17",
+          "2044-01-19",
+          "2044-02-16",
+          "2044-06-21",
+          "2045-01-17",
+          "2046-01-16"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "C",
+            "strike": 110.0,
+            "expiry_yyyymmdd": "20430915"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "C",
+            "strike": 115.0,
+            "expiry_yyyymmdd": "20430915"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "C",
+            "strike": 120.0,
+            "expiry_yyyymmdd": "20430915"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "C",
+            "strike": 125.0,
+            "expiry_yyyymmdd": "20430915"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "C",
+            "strike": 130.0,
+            "expiry_yyyymmdd": "20430915"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "2023-09-12.csv",
+      "file_size_mb": 12.0,
+      "total_rows": 10000,
+      "columns": [
+        "ticker",
+        "volume",
+        "open",
+        "close",
+        "high",
+        "low",
+        "window_start",
+        "transactions"
+      ],
+      "column_types": {
+        "ticker": "object",
+        "volume": "int64",
+        "open": "float64",
+        "close": "float64",
+        "high": "float64",
+        "low": "float64",
+        "window_start": "int64",
+        "transactions": "int64"
+      },
+      "sample_data": [
+        {
+          "ticker": "O:A230915C00115000",
+          "volume": 565,
+          "open": 0.55,
+          "close": 0.35,
+          "high": 0.55,
+          "low": 0.29,
+          "window_start": 1694491200000000000,
+          "transactions": 59
+        },
+        {
+          "ticker": "O:A230915C00125000",
+          "volume": 4,
+          "open": 0.05,
+          "close": 0.05,
+          "high": 0.09,
+          "low": 0.05,
+          "window_start": 1694491200000000000,
+          "transactions": 4
+        },
+        {
+          "ticker": "O:A230915P00105000",
+          "volume": 2,
+          "open": 0.15,
+          "close": 0.05,
+          "high": 0.15,
+          "low": 0.05,
+          "window_start": 1694491200000000000,
+          "transactions": 2
+        }
+      ],
+      "ticker_analysis": {
+        "total_unique_tickers": 10000,
+        "sample_unique_underlyings": [
+          "A",
+          "AA"
+        ],
+        "sample_expiry_dates": [
+          "2043-09-15",
+          "2043-09-22",
+          "2043-10-20",
+          "2043-11-17",
+          "2044-01-19",
+          "2044-02-16",
+          "2044-06-21",
+          "2045-01-17",
+          "2046-01-16"
+        ],
+        "option_types": [
+          "C",
+          "P"
+        ],
+        "sample_parsed_tickers": [
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "C",
+            "strike": 115.0,
+            "expiry_yyyymmdd": "20430915"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "C",
+            "strike": 125.0,
+            "expiry_yyyymmdd": "20430915"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "P",
+            "strike": 105.0,
+            "expiry_yyyymmdd": "20430915"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "P",
+            "strike": 110.0,
+            "expiry_yyyymmdd": "20430915"
+          },
+          {
+            "underlying": "A",
+            "expiry_date": "2043-09-15",
+            "option_type": "P",
+            "strike": 115.0,
+            "expiry_yyyymmdd": "20430915"
+          }
+        ]
+      }
+    }
+  ],
+  "data_coverage": {
+    "date_range": {
+      "files_with_dates": 501,
+      "date_range": "2023-09-11 to 2025-09-09",
+      "sample_dates": [
+        "2023-09-11",
+        "2023-09-12",
+        "2023-09-13",
+        "2023-09-14",
+        "2023-09-15",
+        "2023-09-18",
+        "2023-09-19",
+        "2023-09-20",
+        "2023-09-21",
+        "2023-09-22",
+        "..."
+      ]
+    },
+    "content_coverage": {
+      "unique_underlyings_sample": [
+        "A",
+        "AA",
+        "AAAU",
+        "AADI",
+        "AAL",
+        "AAN",
+        "AAOI",
+        "AAON",
+        "AAP",
+        "AAPB",
+        "AAPD",
+        "AAPL",
+        "AAPU",
+        "AAPX",
+        "AB",
+        "ABAT",
+        "ABBV",
+        "ABCL",
+        "ABEO",
+        "ABEV",
+        "ABG",
+        "ABM",
+        "ABNB",
+        "ABOS",
+        "ABR",
+        "ABSI",
+        "ABT",
+        "ABUS",
+        "ACA",
+        "ACAD",
+        "ACB",
+        "ACCD",
+        "ACCO",
+        "ACDC",
+        "ACGL",
+        "ACHC",
+        "ACHR",
+        "ACI",
+        "ACIC",
+        "ACIU",
+        "ACIW",
+        "ACLS",
+        "ACLX",
+        "ACM",
+        "ACMR",
+        "ACN",
+        "ACNB",
+        "ACRS",
+        "ACVA",
+        "ACWI"
+      ],
+      "total_underlyings_found": 176,
+      "unique_expiries_sample": [
+        "2043-09-15",
+        "2043-09-22",
+        "2043-09-29",
+        "2043-10-06",
+        "2043-10-13",
+        "2043-10-20",
+        "2043-10-27",
+        "2043-11-03",
+        "2043-11-10",
+        "2043-11-17",
+        "2043-11-24",
+        "2043-12-01",
+        "2043-12-08",
+        "2043-12-15",
+        "2043-12-22",
+        "2043-12-29",
+        "2044-01-05",
+        "2044-01-12",
+        "2044-01-19",
+        "2044-01-26"
+      ],
+      "total_expiries_found": 93,
+      "option_types": [
+        "C",
+        "P"
+      ]
+    },
+    "volume_statistics": {
+      "total_volume_samples": 100000,
+      "avg_volume": 257.67,
+      "median_volume": 10.0,
+      "max_volume": 188084,
+      "min_volume": 1
+    }
+  }
+}
